@@ -1,6 +1,6 @@
 Package: LoriTestPkg5
 Title: What the Package Does (One Line, Title Case)
-Version: 0.99.1
+Version: 0.99.2
 Date: 2023-02-10
 Authors@R: 
     person("Lori", "Shepherd", email="lori.shepherd@roswellpark.org", role = c("aut", "cre"))
@@ -13,6 +13,7 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 VignetteBuilder: knitr
+Imports: GenomicRanges
 Suggests:
     knitr,
     rmarkdown

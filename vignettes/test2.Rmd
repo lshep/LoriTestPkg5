@@ -17,6 +17,16 @@ knitr::opts_chunk$set(collapse=TRUE)
 
 # Overview
 
-```{r}
+I've made a package
+
+```{r, code}
+library(GenomicRanges)
+x1 <- "chr2:56-125"
+as(x1, "GRanges")
+```
+
+SessionInfo
+
+```{r, sessionInfo}
 sessionInfo()
 ```
