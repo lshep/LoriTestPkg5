@@ -25,6 +25,11 @@ x1 <- "chr2:56-125"
 as(x1, "GRanges")
 ```
 
+Try a runiverse only package
+```{r, spb}
+library(spbtest3)
+```
+
 SessionInfo
 
 ```{r, sessionInfo}
